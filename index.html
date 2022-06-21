@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.google.com/specimen/Roboto">
         <title>Landing Page</title>
     </head>
 
@@ -19,45 +20,52 @@
             </header>
 
         <main>
-            <div>
-                <div id="main-textq">
+            <section id="main-sect">
+                <div id="main-text">
                     <h2>This is a great landing page.</h2>
                     <p>Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. Sagittis purus sit amet volutpat consequat mauris. Sit amet est placerat in. Sed enim ut sem viverra aliquet. </p>
+                    <input class="submit" type="submit" value="Sign Up">
                 </div>
                 <img id="land-img" src="Images/header.png">
-            </div>
-
-            <div id="product-info">
-                <h2>Product Information</h2>
-                <div class="sect1">
-                    <img class="info-img" src="Images/dimitar-krastev-UHuSjIT28hQ-unsplash.jpg">
-                    <p> Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Sollicitudin nibh sit amet commodo.</p>  
-                </div>  
-                <div class="sect2">
-                    <img class="info-img" src="Images/food2.jpg">
-                    <p>Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. </p>  
-                </div>  
-                <div class="sect3">
-                    <img class="info-img" src="Images/pool.jpg">
-                    <p>Dignissim convallis aenean et tortor at. Erat nam at lectus urna duis convallis convallis.</p>  
-                </div>  
-                <div class="sect4">
-                    <img class="info-img" src="Images/nightlife.jpg">
-                    <p>Nulla aliquet enim tortor at auctor urna nunc id cursus. Id eu nisl nunc mi ipsum faucibus vitae. Habitant morbi tristique senectus et.</p>  
-                </div>  
-            </div>
-
-            <section id="testimonials">
-                <p>Diam volutpat commodo sed egestas egestas fringilla. Quis ipsum suspendisse ultrices gravida dictum. Ultrices eros in cursus turpis massa tincidunt dui ut. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Urna condimentum mattis pellentesque id nibh tortor.</p>
-                <p>Felis imperdiet proin fermentum leo. Morbi tristique senectus et netus et malesuada. Interdum posuere lorem ipsum dolor sit amet. Tortor posuere ac ut consequat. Lorem donec massa sapien faucibus et molestie ac feugiat. Et odio pellentesque diam volutpat.</p>
             </section>
 
-            <section id="sign-up">
-                <div>
-                    <p>Stop waiting! Take action now!</p>
-                    <p>Sign up for our newsletter to be notified of upcoming products and sales.</p>
+            <section id="prod-info">
+                <h2>Product Information</h2>
+                <div  id="product-info">
+                    <div class="sect">
+                        <img class="info-img" src="Images/dimitar-krastev-UHuSjIT28hQ-unsplash.jpg">
+                        <p class="prod-text"> Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Sollicitudin nibh sit amet commodo.</p>  
+                    </div>  
+                    <div class="sect">
+                        <img class="info-img" src="Images/food2.jpg">
+                        <p class="prod-text">Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. </p>  
+                    </div>  
+                    <div class="sect">
+                        <img class="info-img" src="Images/pool.jpg">
+                        <p class="prod-text">Dignissim convallis aenean et tortor at. Erat nam at lectus urna duis convallis convallis.</p>  
+                    </div>  
+                    <div class="sect">
+                        <img class="info-img" src="Images/nightlife.jpg">
+                        <p class="prod-text">Nulla aliquet enim tortor at auctor urna nunc id cursus. Id eu nisl nunc mi ipsum faucibus vitae. Habitant morbi tristique senectus et.</p>  
+                    </div>  
                 </div>
-                <input id="submit" type="submit" value="Sign Up">
+            </section>
+
+            <section id="testimonials">
+                <div id="quotes">
+                    <p>"Diam volutpat commodo sed egestas egestas fringilla. Quis ipsum suspendisse ultrices gravida dictum. Ultrices eros in cursus turpis massa tincidunt dui ut."</p>
+                    <p>"Felis imperdiet proin fermentum leo. Morbi tristique senectus et netus et malesuada. Interdum posuere lorem ipsum dolor sit amet. Tortor posuere ac ut consequat."</p>
+                </div>
+                </section>
+
+            <section id="call-to-act">
+                <div id="sign-up">
+                    <div>
+                        <h2>Stop waiting! Take action now!</h2>
+                        <p>Sign up for our newsletter to be notified of upcoming products and sales.</p>
+                    </div>
+                    <input class="submit" type="submit" value="Sign Up">
+                </div>
             </section>
         </main>
 

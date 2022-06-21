@@ -4,30 +4,142 @@
     margin: 0;
 }
 
-
-
-header {
+body {
+    background-color: #1F2937;
     border: solid 1px black;
+}
+
+/*Grouped selectors*/
+header, ul, #main-sect, #main-text, #product-info, #quotes, #sign-up{
     display: flex;
+}
+#call-to-act, #prod-info {
+    background-color: #F9FAF8;
+}
+#main-sect, ul, #sign-up {
+    align-items: center;
+}
+#quotes, #sign-up {
+    margin: 0 15%;
+}
+
+#prod-text, footer, #prod-info h2 {
+    text-align: center;
+}
+#sign-up, footer, .submit, #main-sect p, #sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+#quotes, #main-text {
+    flex-direction: column;
+}
+#sign-up h2, #main-sect h2, .submit {
+    font-weight: 800;
+}
+footer, #sign-up, #prod-info h2 {
+    padding: 50px;
+}
+#quotes, ul {
+    gap: 2em;
+}
+#product-info, ul {
+    justify-content: space-evenly;
+}
+#sign-up, header{
     justify-content: space-between;
 }
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 2em;
-    margin-right: 2em;
-    list-style-type: none;
+header, #main-sect h2{
+    color: #F9FAF8;
+}
+#testimonials, #prod-text {
+    color: #1F2937;
+}
+#sign-up, .submit  {
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+#testimonials, #prod-info h2{
+    font-size: 36px;
 }
 
+
+/*Nav-Bar*/
+ul {
+    margin-right: 15%;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+/*Main Section*/
+#main-sect {
+    margin: 150px 15%;
+    gap: 30px;
+}
+
+#main-sect h2 {
+    font-size: 48px;
+    width: 90%;
+}
+
+#main-text {
+    gap: 10px;
+    width: 60%;
+}
+
+.submit {
+    padding: 5px 15px;
+    width: 125px;
+}
+
+#prod-info {
+    padding: 0 15%;
+    padding-bottom: 100px;
+}
+
+#prod-info h2 {
+    margin-bottom: 20px;    
+}
+
+.prod-text {
+    display: block;
+    font-family: 'roboto', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#testimonials {
+    background-color: #E5E7EB;
+    font-style: italic;
+    padding: 125px;
+}
+
+#call-to-act {
+    padding: 100px 0;
+}
+
+#sign-up input{
+    border: solid 1px white;
+}
+
+
+/*Photos*/
 .info-img {
-    width:200px;
-    height: auto;
+    width:150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 8px;
+}
+
+#land-img {
+    width: 550px;
+    height: 220px
 }
 
 #header-img {
     width: 100px;
     height: auto;
+    margin-left: 15%;
 }
 
